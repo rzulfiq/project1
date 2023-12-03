@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  color: #444;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+/* Custom Styles */
+/* Add your custom styles here */
