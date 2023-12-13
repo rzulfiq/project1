@@ -7,10 +7,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AR/VR Technology</title>
   <link rel="stylesheet" href="main.css"> <!-- Link to your CSS file -->
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+
+    /* Other styles... */
+
+    /* Additional styles for image integration */
+    .image-with-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .image-with-text img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px; /* Rounded corners for the image */
+      margin-bottom: 15px;
+    }
+
+    .image-caption {
+      font-style: italic;
+      color: #888;
+    }
+  </style>
 </head>
 
 <body>
   <header>
+    <!-- Navigation menu -->
     <nav class="top-nav">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -42,12 +84,10 @@
       </ul>
     </section>
 
-    <section>
+    <section class="image-with-text">
       <h2>Image Generated Using AI</h2>
-      <figure>
-        <img src="image1.png" alt="AI-generated image" style="width: 100%; max-width: 400px; height: auto;">
-        <figcaption>Image generated using AI</figcaption>
-      </figure>
+      <img src="image1.png" alt="AI-generated image">
+      <p class="image-caption">Image generated using AI</p>
     </section>
   </main>
 
