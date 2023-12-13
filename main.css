@@ -3,20 +3,20 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
-  color: #333;
+  background-color: #fff2e6; /* Soft orange background */
+  color: #444;
   line-height: 1.6;
 }
 
 header {
-  background-color: #333;
+  background-color: #ff6b6b; /* Reddish-orange header */
   color: white;
   padding: 20px;
 }
 
 header h1 {
   margin: 0;
-  font-size: 28px;
+  font-size: 32px; /* Slightly larger font size */
 }
 
 nav ul {
@@ -30,14 +30,14 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #ffbf00; /* Bright yellow text */
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
-  color: #ddd;
+  color: #fff; /* White text on hover */
 }
 
 main {
@@ -46,28 +46,28 @@ main {
 
 section {
   margin-bottom: 30px;
-  background-color: #fff;
+  background-color: #ffcccc; /* Light pink background */
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 28px; /* Larger headings */
   margin-bottom: 15px;
-  color: #333;
+  color: #ff6b6b; /* Reddish-orange heading */
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 24px; /* Slightly larger subheadings */
   margin-bottom: 12px;
-  color: #555;
+  color: #ffbf00; /* Bright yellow subheading */
 }
 
 p {
   margin-bottom: 20px;
   line-height: 1.8;
-  color: #444;
+  color: #555;
 }
 
 ul {
@@ -79,7 +79,7 @@ ul li {
 }
 
 footer {
-  background-color: #333;
+  background-color: #ff6b6b; /* Reddish-orange footer */
   color: white;
   padding: 15px 20px;
   text-align: center;
